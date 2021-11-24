@@ -77,6 +77,7 @@ int main(int argc, char** argv) {
                << (android::vold::IsFilesystemSupported("f2fs") ? " f2fs" : "")
                << (android::vold::IsFilesystemSupported("iso9660") ? " iso9660" : "")
                << (android::vold::IsFilesystemSupported("ntfs") ? " ntfs" : "")
+               << (android::vold::IsFilesystemSupported("texfat") ? " texfat" : "")
                << (android::vold::IsFilesystemSupported("udf") ? " udf" : "")
                << (android::vold::IsFilesystemSupported("vfat") ? " vfat" : "");
 
